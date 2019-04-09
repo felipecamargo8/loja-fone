@@ -14,6 +14,7 @@
 }
 .descripition-product > .item.-star {
   margin-bottom: 3px;
+  cursor: pointer;
 }
 
 .descripition-product > .item.-star + .item {
@@ -36,6 +37,9 @@
   font-size: 18px;
   line-height: 30px;
   margin-bottom: 30px;
+}
+.descripition-product > .text.-more {
+  margin-bottom: 0;
 }
 .descripition-product .action {
   color: inherit; /* inherrit herda os valores da class pai aqui no caso e o .description-product */

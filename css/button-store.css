@@ -21,6 +21,7 @@
   width: 218px;
   line-height: 56px;
   margin-right: 38px;
+  cursor: pointer;
 }
 .button-store > button,
 .button-store > a {

@@ -7,4 +7,5 @@
 .wrap-product > .buttons {
   position: absolute;
   bottom: 0;
+  transform: translateY(calc(100% + 98px));
 }

@@ -11,6 +11,7 @@
   opacity: 0.8;
   float: left;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 .header-store > .navigation {
