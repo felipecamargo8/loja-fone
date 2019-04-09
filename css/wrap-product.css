@@ -8,4 +8,10 @@
   position: absolute;
   bottom: 0;
   transform: translateY(calc(100% + 98px));
+  margin-left: 60px;
+}
+.wrap-product > .heart {
+  position: absolute;
+  width: 33px;
+  height: 29px;
 }
