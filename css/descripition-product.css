@@ -1,0 +1,43 @@
+.descripition-product {
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+}
+
+.descripition-product > .title {
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+
+.descripition-product > .item {
+  font-size: 20px;
+  margin-bottom: 28px;
+}
+.descripition-product > .item.-star {
+  margin-bottom: 3px;
+}
+
+.descripition-product > .item.-star + .item {
+  margin-left: 7px;
+}
+
+.descripition-product > .item.-info {
+  width: 200px;
+  text-align: right;
+}
+.descripition-product > .iten.-last {
+  margin-bottom: 72px;
+}
+
+.descripition-product .contrast {
+  text-transform: uppercase;
+  float: left;
+}
+.descripition-product > .text {
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+.descripition-product .action {
+  color: inherit; /* inherrit herda os valores da class pai aqui no caso e o .description-product */
+  text-decoration: none;
+}
