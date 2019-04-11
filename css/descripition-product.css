@@ -18,6 +18,9 @@
   top: 8px;
   left: -48px;
 }
+.descripition-product .item.-heart:hover {
+  transform: perspective(1);
+}
 .descripition-product > .item.-star {
   margin-bottom: 3px;
   cursor: pointer;
