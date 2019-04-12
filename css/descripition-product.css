@@ -17,13 +17,21 @@
   transform: translateX(-100%);
   top: 8px;
   left: -48px;
+  cursor: pointer;
 }
-.descripition-product .item.-heart:hover {
-  transform: perspective(1);
-}
+
 .descripition-product > .item.-star {
   margin-bottom: 3px;
   cursor: pointer;
+}
+
+.descripition-product .icon {
+  transition: transform 150ms linear;
+}
+
+.descripition-product .icon:hover {
+  transform: scale(1.2);
+  transition: transform 150ms linear;
 }
 
 .descripition-product > .item.-star + .item {
