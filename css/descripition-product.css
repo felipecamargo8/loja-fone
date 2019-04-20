@@ -62,3 +62,30 @@
   color: inherit; /* inherrit herda os valores da class pai aqui no caso e o .description-product */
   text-decoration: none;
 }
+
+@media (max-width: 1310px) {
+  .descripition-product {
+    width: 50%;
+    min-width: 655px;
+    margin: 0 auto 60px;
+  }
+  .descripition-product > .title {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .descripition-product > .item.-star {
+    float: left;
+    margin-right: 10px;
+  }
+  .descripition-product > .item.-number {
+    padding-top: 4px;
+  }
+}
+
+@media (max-width: 720px) {
+  .descripition-product {
+    width: 90%;
+    min-width: auto;
+  }
+}
