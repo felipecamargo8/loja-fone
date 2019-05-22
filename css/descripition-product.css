@@ -20,6 +20,10 @@
   cursor: pointer;
 }
 
+.descripition-product > .item.-active {
+  background-color: #ffffff;
+}
+
 .descripition-product > .item.-star {
   margin-bottom: 3px;
   cursor: pointer;
@@ -34,6 +38,24 @@
   transition: transform 150ms linear;
 }
 
+.descripition-product .item .icon.-active {
+  display: none;
+}
+.descripition-product > .item.-active .icon {
+  display: none;
+}
+.descripition-product > .item.-active .icon.-active {
+  display: block;
+}
+.descripition-product .star {
+  display: inline-block;
+}
+.descripition-product .star.-active > .icon {
+  display: none;
+}
+.descripition-product .star.-active > .-active {
+  display: block;
+}
 .descripition-product > .item.-star + .item {
   margin-left: 7px;
 }
