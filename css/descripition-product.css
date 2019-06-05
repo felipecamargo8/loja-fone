@@ -20,10 +20,6 @@
   cursor: pointer;
 }
 
-.descripition-product > .item.-active {
-  background-color: #ffffff;
-}
-
 .descripition-product > .item.-star {
   margin-bottom: 3px;
   cursor: pointer;
